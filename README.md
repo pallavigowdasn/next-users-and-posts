@@ -1,7 +1,7 @@
 # Users & Posts Dashboard
 
 ## Installation
-1. Clone the repo: `git clone https://github.com/yourusername/users-posts-dashboard.git`
+1. Clone the repo: `git clone https://github.com/pallavigowdasn/next-users-and-posts.git`
 2. Navigate to the folder: `cd users-posts-dashboard`
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
@@ -31,7 +31,7 @@
 
 - The API provides endpoints for fetching users (GET /users) and posts (GET /posts?userId={id}), where userId filters posts by the selected user.
 - the data structure includes:
- Users: Contain an id and name.
+ Users: Contain an id and name and address and company.
  Posts: Contain id, title, body, and userId to link posts to specific users.
 
 
